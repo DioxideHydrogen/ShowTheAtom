@@ -47,7 +47,6 @@ public class ShowTheAtom {
             JOptionPane.showConfirmDialog(null, p, "Login : ", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, icone2);
             pass = new String(password.getPassword());
             username = email.getText();
-            System.out.println(pass);
             checked = loginDB.abrir(username, pass);
             if (checked == true) {
                 HumanInterface.gui();
