@@ -35,7 +35,6 @@ public class searchDB {
     }
     public void abrir() throws Exception {
         DATABASE = link();
-        System.out.println("Link da DB: "+DATABASE);
         URL += DATABASE + DB;
         System.out.println(URL);
         try {
